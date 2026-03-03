@@ -24,19 +24,6 @@
 └── config.py              # 全局配置
 ```
 
-## 快速开始
-
-```python
-from training import train
-
-# 开始训练
-result = train()
-
-# 查看最终评估结果
-print(f"最优验证Loss: {result['val_metrics']['irl_loss']:.4f}")
-print(f"滚动评估成功率: {result['rollout_metrics']['success_rate']:.2%}")
-```
-
 ## 关键参数
 
 | 参数 | 值 | 说明 |
