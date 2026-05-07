@@ -16,12 +16,8 @@
 ├── actor.py              # Actor网络：动作策略
 ├── critic.py             # Critic网络：状态价值
 ├── ppo_agent.py          # PPOAgent封装
-├── attention_module.py    # 多头自注意力特征提取
-├── reward_network.py      # 奖励函数学习
 ├── utilities.py           # 辅助函数（归一化、checkpoint等）
-├── evaluation.py          # 评估函数（单步&滚动生成）
 ├── training.py            # 主训练循环
-└── config.py              # 全局配置
 ```
 
 ## 关键参数
